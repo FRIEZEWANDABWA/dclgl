@@ -15,6 +15,20 @@ html {
   opacity: 1;
 }
 
+/* Mobile background fix */
+@media (max-width: 768px) {
+  .hero-slide {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: scroll !important;
+    min-height: 100vh;
+  }
+  
+  #home {
+    min-height: 100vh;
+  }
+}
+
 /* Custom animations */
 @keyframes fadeInUp {
   from {
