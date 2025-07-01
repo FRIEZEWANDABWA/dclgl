@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deliverance Church Lugulu – Bungoma</title>
+  <meta name="description" content="Deliverance Church Lugulu – A vibrant community church located in Bungoma, Webuye region. Join us for worship, youth programs, and spiritual growth.">
+  <meta name="keywords" content="Deliverance Church, Lugulu, Webuye, Bungoma Church, Pentecostal, Kenya Churches">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-black text-white p-4 shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center">
+        <div class="h-10 w-10 bg-blue-600 rounded-full flex items-center justify-center mr-3">
+          <span class="text-white font-bold text-xl">✝</span>
+        </div>
+        <h1 class="text-xl font-bold">Deliverance Church Lugulu</h1>
+      </div>
+      <nav class="hidden md:block">
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="text-sky-400 hover:text-white transition-colors">Home</a></li>
+
+          <li><a href="#ministries" class="text-sky-400 hover:text-white transition-colors">Ministries</a></li>
+          <li><a href="#gallery" class="text-sky-400 hover:text-white transition-colors">Gallery</a></li>
+          <li><a href="#contact" class="text-sky-400 hover:text-white transition-colors">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="mobile-menu" class="md:hidden text-white">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+    <div id="mobile-nav" class="md:hidden hidden bg-gray-900 mt-4 p-4">
+      <a href="#home" class="block py-2 text-sky-400 hover:text-white">Home</a>
+
+      <a href="#ministries" class="block py-2 text-sky-400 hover:text-white">Ministries</a>
+      <a href="#gallery" class="block py-2 text-sky-400 hover:text-white">Gallery</a>
+      <a href="#contact" class="block py-2 text-sky-400 hover:text-white">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero Section with Background Photos -->
+  <section id="home" class="relative text-white min-h-screen flex items-center">
+    <!-- Background Images -->
+    <div class="hero-slide active" style="background-image: url('assets/pastors/11.jpg'); background-size: cover; background-position: center; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+    <div class="hero-slide" style="background-image: url('assets/pastors/12.jpg'); background-size: cover; background-position: center; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+    <div class="hero-slide" style="background-image: url('assets/pastors/13.jpg'); background-size: cover; background-position: center; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+    
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
+    
+    <!-- Content -->
+    <div class="relative container mx-auto px-4 py-32 text-center z-20">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4 text-white" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.8);">Welcome to Deliverance Church Lugulu</h2>
+      <p class="text-xl md:text-2xl mb-8 text-blue-200" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Rooted in Christ. Growing in Faith. Serving with Love.</p>
+      <div class="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center">
+        <button class="bg-blue-600 hover:bg-blue-800 px-8 py-3 rounded-lg text-white font-semibold transition-colors">Plan Your Visit</button>
+        <button class="bg-sky-400 hover:bg-sky-600 text-black px-8 py-3 rounded-lg font-semibold transition-colors">Watch Live</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <!-- Church Info -->
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-blue-400 mb-6">About Deliverance Church Lugulu</h2>
+        <div class="max-w-4xl mx-auto">
+          <div class="bg-white p-8 rounded-xl shadow-lg mb-8">
+            <div class="grid md:grid-cols-2 gap-8">
+              <div class="text-center">
+                <div class="text-5xl mb-4">🎯</div>
+                <h3 class="text-2xl font-bold text-blue-600 mb-4">Our Vision</h3>
+                <p class="text-lg text-gray-700 italic">"The Church of Choice Transforming Nations for Jesus Christ."</p>
+              </div>
+              <div class="text-center">
+                <div class="text-5xl mb-4">📖</div>
+                <h3 class="text-2xl font-bold text-blue-600 mb-4">Our Mission</h3>
+                <p class="text-lg text-gray-700 italic">"To Reach out, Equip and Impact Generations with the Gospel of Jesus Christ."</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-blue-600 text-white p-6 rounded-xl">
+            <div class="flex items-center justify-center mb-2">
+              <span class="text-2xl mr-3">📍</span>
+              <h3 class="text-xl font-bold">Location</h3>
+            </div>
+            <p class="text-center text-blue-100">Western Region, Kenya • Lugulu Subregion</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Service Schedule -->
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold text-center text-blue-400 mb-8">Order of Services</h2>
+        <div class="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <!-- Sunday Services -->
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <h3 class="text-2xl font-bold text-blue-600 mb-6 text-center">Sunday Services</h3>
+            <div class="space-y-4">
+              <div class="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
+                <span class="font-semibold text-gray-800">Sunday School</span>
+                <span class="text-blue-600 font-bold">8:00–9:30 AM</span>
+              </div>
+              <div class="flex justify-between items-center p-3 bg-sky-50 rounded-lg">
+                <span class="font-semibold text-gray-800">Youth Service</span>
+                <span class="text-sky-600 font-bold">7:30–8:30 AM</span>
+              </div>
+              <div class="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
+                <span class="font-semibold text-gray-800">1st Service</span>
+                <span class="text-blue-600 font-bold">8:30–10:30 AM</span>
+              </div>
+              <div class="flex justify-between items-center p-3 bg-sky-50 rounded-lg">
+                <span class="font-semibold text-gray-800">2nd Service</span>
+                <span class="text-sky-600 font-bold">10:30 AM–12:30 PM</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Weekly Programs -->
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <h3 class="text-2xl font-bold text-blue-600 mb-6 text-center">Weekly Programs</h3>
+            <div class="space-y-4">
+              <div class="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
+                <span class="font-semibold text-gray-800">Monday: Leaders Training</span>
+                <span class="text-blue-600 font-bold">5:00–6:00 PM</span>
+              </div>
+              <div class="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
+                <span class="font-semibold text-gray-800">Tuesday: Prayers</span>
+                <span class="text-blue-600 font-bold">5:00–6:00 PM</span>
+              </div>
+              <div class="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
+                <span class="font-semibold text-gray-800">Wednesday: Bible Study</span>
+                <span class="text-blue-600 font-bold">5:00–6:00 PM</span>
+              </div>
+              <div class="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
+                <span class="font-semibold text-gray-800">Thursday: Cell Meetings</span>
+                <span class="text-blue-600 font-bold">5:00–6:00 PM</span>
+              </div>
+              <div class="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
+                <span class="font-semibold text-gray-800">Friday: Kesha (Overnight Prayer)</span>
+                <span class="text-blue-600 font-bold">9:00 PM</span>
+              </div>
+              <div class="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
+                <span class="font-semibold text-gray-800">Saturday: Choir Practice</span>
+                <span class="text-blue-600 font-bold">3:00 PM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Core Values -->
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center p-6 bg-white rounded-lg shadow-md border-t-4 border-blue-600 hover-lift">
+          <div class="text-4xl text-blue-600 mb-4">🙏</div>
+          <h3 class="text-xl font-semibold mb-2 text-blue-400">Worship</h3>
+          <p class="text-gray-600">Join us every Sunday for powerful worship and inspiring messages.</p>
+        </div>
+        <div class="text-center p-6 bg-white rounded-lg shadow-md border-t-4 border-sky-400 hover-lift">
+          <div class="text-4xl text-sky-400 mb-4">👥</div>
+          <h3 class="text-xl font-semibold mb-2 text-blue-400">Community</h3>
+          <p class="text-gray-600">Building strong relationships and supporting one another in faith.</p>
+        </div>
+        <div class="text-center p-6 bg-white rounded-lg shadow-md border-t-4 border-blue-800 hover-lift">
+          <div class="text-4xl text-blue-800 mb-4">❤️</div>
+          <h3 class="text-xl font-semibold mb-2 text-blue-400">Service</h3>
+          <p class="text-gray-600">Reaching out to our community with acts of love and kindness.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ministries Section -->
+  <section id="ministries" class="py-16 bg-gray-900">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-400 mb-12">Our Ministries</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div class="bg-black p-6 rounded-lg text-center hover:bg-gray-800 transition-all duration-300 ministry-card group">
+          <div class="relative mb-4 overflow-hidden rounded-lg">
+            <img src="assets/sundayschool/475291304_3857866961147900_1105518358027808354_n.jpg" alt="Sunday School" class="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-300">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+            <div class="absolute bottom-2 left-2 text-4xl">👶</div>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-sky-400">Sunday School</h3>
+          <p class="text-blue-200">Nurturing young hearts in God's love and teachings.</p>
+        </div>
+        <div class="bg-black p-6 rounded-lg text-center hover:bg-gray-800 transition-all duration-300 ministry-card group">
+          <div class="relative mb-4 overflow-hidden rounded-lg">
+            <img src="assets/youth/yt.jpg" alt="Youth Ministry" class="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-300">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+            <div class="absolute bottom-2 left-2 text-4xl">🎯</div>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-sky-400">Youth Ministry</h3>
+          <p class="text-blue-200">Empowering young people to live purposeful lives in Christ.</p>
+        </div>
+        <div class="bg-black p-6 rounded-lg text-center hover:bg-gray-800 transition-all duration-300 ministry-card group">
+          <div class="relative mb-4 overflow-hidden rounded-lg">
+            <img src="assets/members/474894237_3855144638086799_8947215307516298753_n.jpg" alt="Men's Fellowship" class="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-300">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+            <div class="absolute bottom-2 left-2 text-4xl">👨</div>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-sky-400">Men's Fellowship</h3>
+          <p class="text-blue-200">Building godly men and strong spiritual leadership.</p>
+        </div>
+        <div class="bg-black p-6 rounded-lg text-center hover:bg-gray-800 transition-all duration-300 ministry-card group">
+          <div class="relative mb-4 overflow-hidden rounded-lg">
+            <img src="assets/choir/474046061_2285495148484245_3503996401635433228_n.jpg" alt="Choir Ministry" class="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-300">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+            <div class="absolute bottom-2 left-2 text-4xl">🎵</div>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-sky-400">Choir Ministry</h3>
+          <p class="text-blue-200">Lifting hearts and voices in worship and praise.</p>
+        </div>
+      </div>
+      
+      <!-- Cell Groups -->
+      <div class="bg-black p-8 rounded-xl">
+        <h2 class="text-3xl font-bold text-center text-blue-400 mb-8">Our Cell Groups</h2>
+        <p class="text-center text-blue-200 mb-8">We are organized into 10 vibrant cell groups for fellowship, prayer, and spiritual growth</p>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors">
+            <div class="text-3xl mb-2">📢</div>
+            <h3 class="text-sky-400 font-semibold">Testimony</h3>
+          </div>
+          <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors">
+            <div class="text-3xl mb-2">🌟</div>
+            <h3 class="text-sky-400 font-semibold">Sipala</h3>
+          </div>
+          <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors">
+            <div class="text-3xl mb-2">🏛️</div>
+            <h3 class="text-sky-400 font-semibold">Jerusalem</h3>
+          </div>
+          <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors">
+            <div class="text-3xl mb-2">😊</div>
+            <h3 class="text-sky-400 font-semibold">Joy</h3>
+          </div>
+          <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors">
+            <div class="text-3xl mb-2">💪</div>
+            <h3 class="text-sky-400 font-semibold">Breakthrough</h3>
+          </div>
+          <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors">
+            <div class="text-3xl mb-2">🕊️</div>
+            <h3 class="text-sky-400 font-semibold">Hope</h3>
+          </div>
+          <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors">
+            <div class="text-3xl mb-2">🏙️</div>
+            <h3 class="text-sky-400 font-semibold">Samaria</h3>
+          </div>
+          <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors">
+            <div class="text-3xl mb-2">☮️</div>
+            <h3 class="text-sky-400 font-semibold">Shalom</h3>
+          </div>
+          <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors">
+            <div class="text-3xl mb-2">⛪</div>
+            <h3 class="text-sky-400 font-semibold">Church Area</h3>
+          </div>
+          <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors">
+            <div class="text-3xl mb-2">🙏</div>
+            <h3 class="text-sky-400 font-semibold">Emmanuel</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-400 mb-12">Church Life Gallery</h2>
+      
+      <!-- Anniversary Celebrations -->
+      <div class="mb-12">
+        <h3 class="text-2xl font-bold text-center text-gray-800 mb-6">Anniversary Celebrations</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+            <img src="assets/anniversary/475305254_3857745074493422_5788306476336841808_n.jpg" alt="Anniversary" class="w-full h-48 object-cover hover:scale-110 transition-transform duration-300">
+          </div>
+          <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+            <img src="assets/anniversary/475334449_3857745231160073_3663043384814622462_n.jpg" alt="Anniversary" class="w-full h-48 object-cover hover:scale-110 transition-transform duration-300">
+          </div>
+          <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+            <img src="assets/anniversary/475921861_3863577117243551_4973566244546667367_n.jpg" alt="Anniversary" class="w-full h-48 object-cover hover:scale-110 transition-transform duration-300">
+          </div>
+          <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+            <img src="assets/anniversary/476100516_3863577130576883_5222747344260418051_n.jpg" alt="Anniversary" class="w-full h-48 object-cover hover:scale-110 transition-transform duration-300">
+          </div>
+        </div>
+      </div>
+
+      <!-- Church Members -->
+      <div class="mb-12">
+        <h3 class="text-2xl font-bold text-center text-gray-800 mb-6">Our Church Family</h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+            <img src="assets/members/475331888_3857745297826733_3349923802588018892_n.jpg" alt="Church Members" class="w-full h-48 object-cover hover:scale-110 transition-transform duration-300">
+          </div>
+          <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+            <img src="assets/members/481904569_2314908612209565_1236241901588866414_n.jpg" alt="Church Members" class="w-full h-48 object-cover hover:scale-110 transition-transform duration-300">
+          </div>
+          <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+            <img src="assets/members/485373457_2333427600357666_2475932419334123274_n.jpg" alt="Church Members" class="w-full h-48 object-cover hover:scale-110 transition-transform duration-300">
+          </div>
+        </div>
+      </div>
+
+      <!-- Choir Ministry -->
+      <div class="mb-12">
+        <h3 class="text-2xl font-bold text-center text-gray-800 mb-6">Choir Ministry</h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+            <img src="assets/choir/487747568_2766669303518659_1134068729167653810_n.jpg" alt="Choir" class="w-full h-48 object-cover hover:scale-110 transition-transform duration-300">
+          </div>
+          <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+            <img src="assets/choir/487857476_2766668860185370_3124876324220932428_n.jpg" alt="Choir" class="w-full h-48 object-cover hover:scale-110 transition-transform duration-300">
+          </div>
+          <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+            <img src="assets/choir/488073770_2766668970185359_6585889173888314587_n.jpg" alt="Choir" class="w-full h-48 object-cover hover:scale-110 transition-transform duration-300">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Construction Progress -->
+  <section class="py-16 bg-gradient-to-r from-blue-600 to-sky-400 text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Building God's House</h2>
+      <p class="text-lg text-blue-100 mb-8">Witness the progress of our new sanctuary - a testament to God's faithfulness and our community's dedication.</p>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
+        <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+          <img src="assets/progress/474597126_3855144341420162_6983699474958550236_n.jpg" alt="Construction Progress" class="w-full h-32 object-cover hover:scale-110 transition-transform duration-300">
+        </div>
+        <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+          <img src="assets/progress/474738065_3855144601420136_1462537099181097491_n.jpg" alt="Construction Progress" class="w-full h-32 object-cover hover:scale-110 transition-transform duration-300">
+        </div>
+        <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+          <img src="assets/progress/474990862_3855144574753472_7427990132354056689_n.jpg" alt="Construction Progress" class="w-full h-32 object-cover hover:scale-110 transition-transform duration-300">
+        </div>
+        <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+          <img src="assets/progress/475020577_3855144334753496_4203564943017338826_n.jpg" alt="Construction Progress" class="w-full h-32 object-cover hover:scale-110 transition-transform duration-300">
+        </div>
+      </div>
+      <div class="mt-8">
+        <p class="text-blue-100 italic">"Unless the Lord builds the house, the builders labor in vain." - Psalm 127:1</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-black text-white">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h2 class="text-3xl font-bold mb-6 text-blue-400">Visit Us</h2>
+          <div class="space-y-4">
+            <div class="flex items-center">
+              <span class="text-2xl mr-4">📍</span>
+              <span class="text-blue-200">Lugulu, Webuye, Bungoma County, Kenya</span>
+            </div>
+            <div class="flex items-center">
+              <span class="text-2xl mr-4">⏰</span>
+              <span class="text-blue-200">Sunday Service: 9:00 AM - 12:00 PM</span>
+            </div>
+            <div class="flex items-center">
+              <span class="text-2xl mr-4">📞</span>
+              <span class="text-blue-200">0710988850</span>
+            </div>
+            <div class="flex items-center">
+              <span class="text-2xl mr-4">✉️</span>
+              <span class="text-blue-200">info@deliverancechurchlugulu.org</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-3xl font-bold mb-6 text-blue-400">Get In Touch</h2>
+          <form class="space-y-4">
+            <input type="text" placeholder="Your Name" class="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:border-sky-400 transition-colors">
+            <input type="email" placeholder="Your Email" class="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:border-sky-400 transition-colors">
+            <textarea placeholder="Your Message" rows="4" class="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:border-sky-400 transition-colors"></textarea>
+            <button class="bg-blue-600 hover:bg-blue-800 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-6 border-t border-gray-800">
+    <div class="container mx-auto px-4">
+      <p class="text-blue-200">&copy; 2025 Deliverance Church Lugulu | All Rights Reserved</p>
+      <p class="text-sm text-sky-400 mt-2">Built with love for God's glory</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
