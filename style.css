@@ -15,17 +15,31 @@ html {
   opacity: 1;
 }
 
-/* Mobile background fix */
+/* Responsive image sizing */
+.hero-slide {
+  z-index: 0;
+}
+
+.hero-slide.active {
+  z-index: 1;
+}
+
+/* Ensure proper aspect ratios */
 @media (max-width: 768px) {
   .hero-slide {
-    background-size: cover !important;
-    background-position: center center !important;
-    background-attachment: scroll !important;
-    min-height: 100vh;
+    height: 60vh !important;
   }
-  
-  #home {
-    min-height: 100vh;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-slide {
+    height: 80vh !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  .hero-slide {
+    height: 100vh !important;
   }
 }
 
